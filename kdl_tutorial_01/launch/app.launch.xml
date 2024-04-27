@@ -1,0 +1,6 @@
+<launch>
+  <!-- Main -->
+  <node pkg="kdl_tutorial_01" exec="main" output="screen" />
+  <!-- Robot description publisher -->
+  <include file="$(find-pkg-share kdl_tutorial_01)/launch/robot_description.launch.py" />
+</launch>

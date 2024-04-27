@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>kdl_tutorial_01</name>
+  <version>0.0.0</version>
+  <description>KDL tutorial 01: reading URDF and inverse kinematics</description>
+  <maintainer email="mail@arnebaeyens.com">Arne Baeyens</maintainer>
+  <author email="mail@arnebaeyens.com">Arne Baeyens</author>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>orocos_kdl_vendor</depend>
+  <depend>kdl_parser</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
