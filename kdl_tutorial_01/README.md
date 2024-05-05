@@ -1,14 +1,14 @@
-# KDL tutorial 01: URDF + IK
+# KDL tutorial 01: ROS URDF + IK
+A ROS2 package introducing usage of KDL with ROS2.
+Accompanying tutorial:
+[arnebaeyens.com/blog/2024/kdl-ros2](https://arnebaeyens.com/blog/2024/kdl-ros2/).
 
-In this tutorial/blogpost, we will go through setting up KDL in ROS2,
-constructing the KDL kinematic tree from the `/robot_description` topic
-(i.e. using URDF), and solving an inverse kinematics case.
-
-Subjects:
+Covered subjects:
 - construct `KDL::Tree` from URDF broadcast on `/robot_description` topic
 - extract kinematic chains of interest from tree
 - set up IK solver
 - run IK solver
+
 
 ## Build and run
 ```bash
